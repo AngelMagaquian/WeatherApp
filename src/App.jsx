@@ -3,7 +3,7 @@ import Dashboard from './Dashboard';
 import SunnyDay from './assets/SunnyDay.mp4'
 import RainDay from './assets/RainDay.mp4'
 import LightningDay from './assets/LightningDay.mp4'
-import CloudDay from './assets/Cloudyday.mp4'
+import CloudDay from './assets/CloudyDay.mp4'
 import SnowDay from './assets/SnowDay.mp4'
 import MistDay from './assets/MistDay.mp4'
 import SquallDay from './assets/SquallDay.mp4'

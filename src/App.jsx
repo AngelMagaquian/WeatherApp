@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Dashboard from './DashBoard';
+import Dashboard from './Dashboard';
 import SunnyDay from './assets/SunnyDay.mp4'
 import RainDay from './assets/RainDay.mp4'
 import LightningDay from './assets/LightningDay.mp4'

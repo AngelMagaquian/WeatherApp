@@ -14,6 +14,7 @@ const App = ()=>{
   const [coor, setCoor] = useState({lat:0,lon:0})
   const [ video, setVideo] = useState()
   const [error, setError] = useState(false)
+  const APIKEY = import.meta.env.VITE_KEY;
 
   const videos = {
     Clear : SunnyDay,
@@ -30,7 +31,7 @@ const App = ()=>{
      
         try {
           const response = await fetch(
-            `https://api.openweathermap.org/data/2.5/weather?lat=${coor.lat}&lon=${coor.lon}&appid=da55f21e302c0d5ed18708f48de6bd61&units=metric&lang=ES`
+            `https://api.openweathermap.org/data/2.5/weather?lat=${coor.lat}&lon=${coor.lon}&appid=${APIKEY}&units=metric&lang=ES`
           );
           const data = await response.json();
           setWeatherData(data);

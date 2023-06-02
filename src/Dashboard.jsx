@@ -35,7 +35,6 @@ const Dashboard = ({handleLocation, weather, handleError, error}) => {
                     error && 
                     <div className='mt-10 bg-red-500 bg-opacity-50 p-4 rounded-2xl cursor-pointer transition-all duration-150 hover:bg-opacity-90 animate-bounce' onClick={()=>handleError()}>
                         <h4 className='text-center font-medium text-neutral-200'>Error al encontrar ciudad</h4>
-                        
                     </div>
                 }
                 
@@ -61,7 +60,7 @@ const Dashboard = ({handleLocation, weather, handleError, error}) => {
                         <tbody className='text-neutral-200'>
                             <tr>
                                 <td>Viento</td>
-                                <td>{weather&& weather.wind.speed} km/h</td>
+                                <td>{weather&& weather.wind.speed} m/s</td>
                                 
                             </tr>
                             <tr>
